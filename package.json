@@ -65,6 +65,7 @@
   },
   "dependencies": {
     "node-machine-id": "^1.1.9",
-    "qs": "^6.5.1"
+    "qs": "^6.5.1",
+    "whatwg-fetch": "^3.0.0"
   }
 }

@@ -3,6 +3,8 @@ import { machineIdSync } from 'node-machine-id';
 import { CACHE_KEY_NAME } from './consts';
 import { Item } from './types';
 
+import 'whatwg-fetch';
+
 export const getAppName = (): string => remote.app.getName();
 
 export const getAppVersion = (): string => remote.app.getVersion();
